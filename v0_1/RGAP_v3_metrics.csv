@@ -1,0 +1,4 @@
+method,final_misfit,final_sphere_error,final_arc_error,final_admissibility,verdict
+euclidean,5.09e-11,4.33e-06,0.0289,0.2890,invalid
+sphere_retracted,7.02e-11,0.0,0.0289,0.2890,ambient_feasible_observationally_invalid
+arc_retracted,0.00088,0.0,0.0,0.0,admissible

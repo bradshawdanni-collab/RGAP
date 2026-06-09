@@ -1,0 +1,9 @@
+{
+  "version": "v0.1",
+  "demo": "sphere_arc_pointwise",
+  "results": {
+    "euclidean": {"misfit": 5.09e-11, "sphere_error": 4.33e-06, "arc_error": 0.0289, "admissibility": 0.2890, "verdict": "invalid"},
+    "sphere_retracted": {"misfit": 7.02e-11, "sphere_error": 0.0, "arc_error": 0.0289, "admissibility": 0.2890, "verdict": "ambient_feasible_observationally_invalid"},
+    "arc_retracted": {"misfit": 0.00088, "sphere_error": 0.0, "arc_error": 0.0, "admissibility": 0.0, "verdict": "admissible"}
+  }
+}

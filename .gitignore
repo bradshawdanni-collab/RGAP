@@ -1,0 +1,55 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs / temp
+*.log
+tmp/
+temp/
+.cache/
+
+# Build / packaging
+build/
+dist/
+site/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Large generated media drafts
+*.mp4
+*.mov
+
+# Keep canonical figures and GIFs tracked
+!figures/*.png
+!figures/*.gif
+
+# Keep metrics tracked
+!**/metrics.json
+!**/metrics.md
+!**/*.csv
+
+# Keep reproducibility environments tracked
+!**/environment.yml
+!**/environment.txt

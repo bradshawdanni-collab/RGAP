@@ -1,0 +1,9 @@
+name: rgap-v4
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - numpy=1.26.4
+  - matplotlib=3.10.3
+  - notebook

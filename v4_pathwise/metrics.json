@@ -1,0 +1,10 @@
+{
+  "version": "v4_pathwise",
+  "demo": "trajectory_recovery",
+  "results": {
+    "euclidean": {"misfit": 0.0, "sphere_error": 0.0, "arc_error": 0.0655, "continuity_error": 0.1227, "verdict": "invalid"},
+    "sphere_retracted": {"misfit": 0.0, "sphere_error": 0.0, "arc_error": 0.0655, "continuity_error": 0.1227, "verdict": "ambient_feasible"},
+    "arc_retracted": {"misfit": 0.1052, "sphere_error": 0.0, "arc_error": 0.0, "continuity_error": 0.0883, "verdict": "admissible"}
+  },
+  "admissibility_premium": 0.1052
+}
