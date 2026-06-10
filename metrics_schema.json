@@ -1,0 +1,25 @@
+{
+  "version": "v0.1",
+  "metrics": {
+    "residual_misfit": {
+      "definition": "Observation-space misfit between candidate trajectory and noisy measurements"
+    },
+    "sphere_error": {
+      "definition": "Deviation from ambient spherical feasibility constraint"
+    },
+    "arc_error": {
+      "definition": "Deviation from residual admissible arc manifold"
+    },
+    "structural_drift": {
+      "definition": "Accumulated manifold deviation during optimization updates"
+    },
+    "continuity_error": {
+      "definition": "Penalty associated with trajectory discontinuity"
+    }
+  },
+  "update_laws": {
+    "euclidean": "Unconstrained optimization in ambient space",
+    "sphere_projected": "Projection to ambient sphere only",
+    "arc_retracted": "Retraction to residual admissible manifold"
+  }
+}
