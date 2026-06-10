@@ -1,0 +1,34 @@
+{
+  "schema_name": "RGAP namespace drift metrics",
+  "schema_version": "0.2-experimental",
+  "kernel_dependency": "RGAP v0.1 frozen kernel",
+  "status": "experimental",
+  "metrics": {
+    "semantic_residual": {
+      "definition": "Local semantic fit to observation/query targets in embedding space"
+    },
+    "namespace_error": {
+      "definition": "Distance from coarse active namespace shell"
+    },
+    "corridor_error": {
+      "definition": "Distance from residual admissible semantic corridor"
+    },
+    "context_velocity": {
+      "definition": "Turn-to-turn or iteration-to-iteration movement in semantic state space"
+    },
+    "continuity_penalty": {
+      "definition": "Smoothness penalty across semantic transport sequence"
+    },
+    "structural_drift": {
+      "definition": "Cumulative deviation from residual semantic corridor during optimization"
+    },
+    "reconciliations": {
+      "definition": "Number of discrete cleanup/retraction events triggered by velocity threshold"
+    }
+  },
+  "verdicts": {
+    "INVALID_NAMESPACE_DRIFT": "State drifts outside both namespace and residual corridor",
+    "PARTIAL_NAMESPACE_ONLY": "State remains in coarse namespace but outside residual corridor",
+    "FULLY_ADMISSIBLE_NAMESPACE": "State remains inside active namespace and residual semantic corridor"
+  }
+}
